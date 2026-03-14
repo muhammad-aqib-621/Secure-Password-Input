@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Password Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Enter Your Password</h1>
+    <div class="input-box">
+        <input type="password" placeholder="Password" id="password" maxlength="20">
+        <button id="eyeicon" type="button" aria-label="Toggle password visibility">👁️</button>
+    </div>
+    <div id="char-counter" class="char-counter">0 / 20</div>
+    <div id="strength-indicator" class="strength">
+        <div class="strength-bar"></div>
+        <span class="strength-text">Password Strength</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
